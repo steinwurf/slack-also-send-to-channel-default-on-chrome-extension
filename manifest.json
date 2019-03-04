@@ -7,7 +7,9 @@
     "js": ["content.js"],
     "matches": [
       "http://*.slack.com/messages/*",
-      "https://*.slack.com/messages/*"
+      "https://*.slack.com/messages/*",
+      "http://*.slack.com/unreads/*",
+      "https://*.slack.com/unreads/*"
     ],
     "run_at": "document_idle"
   }],
