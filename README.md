@@ -1,5 +1,7 @@
 # Slack "Also send to #Channel" Default On Chrome Extension
 
+> **Warning!** *Due to changes in Slack, this extension is no longer functional. Please see [#2](https://github.com/steinwurf/slack-also-send-to-channel-default-on-chrome-extension/issues/2) for any progress on this issue.*
+
 When using threads in Slack you get the option to also send the message you are writing to the channel. This is a checkbox you need to tick. By default this checkbox is "off".
 This plugin simply checks this checkbox, so that the new default for this option is "on".
 
