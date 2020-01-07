@@ -1,10 +1,13 @@
+#!/usr/bin/env python3
+
 import zipfile
 import os
+import errno
 
 try:
     os.makedirs('dist')
 except OSError as e:
-    if e.errno != os.errno.EEXIST:
+    if e.errno != errno.EEXIST:
         raise
 
 zf = zipfile.ZipFile('dist/extension.zip', mode='w')

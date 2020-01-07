@@ -6,10 +6,8 @@
   "content_scripts": [{
     "js": ["content.js"],
     "matches": [
-      "http://*.slack.com/messages/*",
-      "https://*.slack.com/messages/*",
-      "http://*.slack.com/unreads/*",
-      "https://*.slack.com/unreads/*"
+      "https://app.slack.com/client/*",
+      "http://app.slack.com/client/*"
     ],
     "run_at": "document_idle"
   }],
