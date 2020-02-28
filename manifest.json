@@ -1,6 +1,6 @@
 {
   "name": "Slack \"Also send to #Channel\" Default On",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tiny extension to check the \"Also send to #Channel\" checkbox by default.",
   "permissions": ["activeTab", "declarativeContent"],
   "content_scripts": [{
