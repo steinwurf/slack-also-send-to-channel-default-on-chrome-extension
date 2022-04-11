@@ -14,7 +14,7 @@ document.addEventListener('DOMNodeInserted', function(e){
                 // console.log("SASTCDO: Unable to find editor");
                 return;
             }
-            const checkbox = container.getElementsByClassName('p-threads_footer__broadcast_checkbox')[0];
+            const checkbox = container.getElementsByClassName('c-input_checkbox')[0];
             if (checkbox === undefined)
             {
                 // console.log("SASTCDO: Unable to find checkbox");
